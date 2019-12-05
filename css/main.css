@@ -1,0 +1,71 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/ 1.5 "Open Sans", sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+article {
+  position: relative;
+  overflow: hidden;
+  max-height: 500px;
+}
+
+hero-logo {
+  position: absolute;
+  left: 10%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  transform: translateX(-50%);
+}
+
+.banner {
+  position: absolute;
+  width: 100%;
+  max-width: 50em;
+  bottom: 0;
+  left: 50%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  transform: translateX(-50%);
+}
+
+h2 {
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+h2 span {
+  font-size: 4rem;
+  color: #000;
+}
+
+p {
+  font-size: 2rem;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: .75em;
+}
+
+.btn {
+  font-family: Dosis, sans-serif;
+  font-size: 1.125rem;
+  color: #fff;
+  background-color: #000;
+  border-radius: 8px;
+  padding: .4em .75em .5em;
+  display: inline-block;
+}
