@@ -30,36 +30,31 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  justify-content: flex-start;
+  justify-content: space-between;
   width: 100%;
-  max-width: 700px;
-  padding-top: 2.5%;
+  max-width: 45em;
+  padding: 0 1.5rem;
 }
 
 .info {
-  flex-direction: column;
-  padding: 0 0 0 4rem;
-  max-width: 65%;
-  margin: 0 0 1em;
+  width: 60%;
 }
 
-.hero-logo {
-  width: 100%;
-  max-width: 31%;
+.logo {
+  width: 33%;
 }
 
 .logo img {
   width: 100%;
   display: block;
-  margin: 0 .7em;
 }
 
 h2 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 3rem;
   font-weight: bold;
-  margin: 0;
-  line-height: 1.25;
+  margin: 0 0 .5rem;
+  line-height: 1.2;
 }
 
 p {
@@ -72,7 +67,7 @@ a {
   color: #fff;
   font-weight: 200;
   border-radius: 8px;
-  padding: .4em .75em .3em;
+  padding: .4em .5em .3em;
   display: inline-block;
   text-decoration: none;
   border-width: 3px;
@@ -81,13 +76,14 @@ a {
 .btn {
   background-color: #333;
   color: #fff;
+  text-decoration: none;
 }
 
 .btn-big {
   text-align: center;
   display: inline-block;
-  padding: .5em 1em;
-  font-size: 1.5em;
+  padding: .4em 1em;
+  font-size: 1.5rem;
 }
 
 .btn:hover {
